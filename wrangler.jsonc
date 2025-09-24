@@ -1,7 +1,7 @@
 {
   // for cf pages deployment
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "siteproxy", // 替换为你的cloudflare page的名字
+  "name": "🆚代理", // 替换为你的cloudflare page的名字
   "pages_build_output_dir": "build/cf_page",
   "compatibility_date": "2025-07-23",
   "compatibility_flags": ["nodejs_compat"],
@@ -10,6 +10,6 @@
   },
   "vars": {
     "proxy_url": "https://wo.hehh.eu.org", // 替换为你的代理服务器域名, 必须替换为HTTPS
-    "token_prefix": "/xjb334455/" // 替换为你想设置的访问密码。注意首尾的斜杠必须保留，如果密码为空，表示不需要密码也可以访问。
+    "token_prefix": "/hhh888/" // 替换为你想设置的访问密码。注意首尾的斜杠必须保留，如果密码为空，表示不需要密码也可以访问。
   }
 }
